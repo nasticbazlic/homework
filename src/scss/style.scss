@@ -1,8 +1,13 @@
+
+
 * {
     font-family: 'Open Sans', sans-serif;    
 }
 .container {
     position: relative;
-    width: 1155px;
+    width: 1150px;
     margin: 0 auto;
 }
+
+@import 'blocks/header';
+@import 'blocks/first';

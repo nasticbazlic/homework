@@ -1,0 +1,13 @@
+.header {
+    display: flex;
+    align-items: center;
+    &__burger {
+        span {
+            display: block;
+            height: 12px;
+            width: 15px;
+            background-color: #000;
+            margin-bottom: 2px;
+        }
+    }
+}
