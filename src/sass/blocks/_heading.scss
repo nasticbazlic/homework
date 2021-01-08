@@ -1,0 +1,27 @@
+.heading {
+    &__title {
+        margin-top: 150px;
+        font-size: 45px;
+        font-weight: 600;
+        text-align: center;
+        color:rgba(0, 0, 0, 0.562);
+        text-transform: capitalize;
+        span {
+            color: #fa6b0bd3;
+        }
+        &_min {
+            margin-top: 0;
+            font-size: 20px;            
+        }
+    }
+    &__descr {
+        margin: 0 auto;
+        width: 60%;
+        margin-top: 20px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        color: rgba(0, 0, 0, 0.562);
+    }
+}

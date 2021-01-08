@@ -1,0 +1,15 @@
+.first {
+    min-height: 920px;
+    padding-top: 33px;
+    background: url(../img/first.jpg) center (center/ cover) no-repeat;
+    &__form {
+        margin-top: 130px;
+        padding: 35px 40px 20px 40px;
+        width: 375px;
+        height: 390px;
+        background-color: #fff;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    
+}
