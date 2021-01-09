@@ -2,11 +2,28 @@
     display: block;
     margin: 0 auto;
     width: 240px;
-    height: 55px;
-    border-radius: 50px  50px;
+    height: 55px;    
     border: none;
+    border-radius: 50px  50px;
     background-color: #fa6b0bd3;
     font-weight: 600;
+    text-transform: capitalize;
     color: #fff;
     text-align: center;
+    &:focus {
+        outline: none;
+    }
+    &_marvel {
+        width: 220px;
+        position: absolute;
+        right: 20px;
+        bottom: -25px;
+        background-color: #fff;
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
+        
+    }
+
 }
