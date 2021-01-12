@@ -45,6 +45,11 @@
             line-height: 20px;
         }
     }
+    .feature  {
+        &__content {
+            justify-content: space-around;
+        }
+    }
     
     
 }
@@ -63,6 +68,13 @@
             margin: 0 auto;
             margin-top: 100px;
         }
+    }
+    .feature  {
+        &__content {
+            flex-direction: column;
+            align-self: center;
+        }
+
     }
     
 }
@@ -132,5 +144,8 @@
         width: 200px;
         height: 50px;
         font-size: 15px;
+    }
+    .feature {
+        padding: 50px 0 50px 0;
     }
 }
