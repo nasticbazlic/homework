@@ -19,11 +19,21 @@
         right: 20px;
         bottom: -25px;
         background-color: #fff;
-        color: black;
-        font-size: 15px;
-        font-weight: 500;
+        color: rgba(0, 0, 0, 0.705);
+        font-size: 17px;
+        font-weight: 600;
         box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
         
+    }
+    &_services {
+        display: initial;
+        margin-top: 45px;
+        background-color: #fff;
+        color: rgba(0, 0, 0, 0.705);
+        font-size: 17px;
+        font-weight: 600;
+        text-align: center;
+        box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
     }
 
 }
