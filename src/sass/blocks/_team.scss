@@ -1,0 +1,32 @@
+.team {
+    min-height: 965px;
+    padding: 150px 0;
+    background: #e0dada21;
+    &__content {
+        margin-top: 110px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__item {
+        position: relative;
+        width: 360px;
+        height: 445px;
+        &:nth-child(1) {
+            background: url(../img/team1.jpg) center (center/ cover) no-repeat;
+        }
+        &:nth-child(2) {
+            background: url(../img/team2.jpg) center (center/ cover) no-repeat;
+        }
+        &:nth-child(3) {
+            background: url(../img/team3.jpg) center (center/ cover) no-repeat;
+        }
+    }
+    &__progress {
+        display: flex;
+        flex-direction: column;
+        &_progress-bar {
+            margin-top: 20px;
+        }    
+    }
+}
