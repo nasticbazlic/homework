@@ -35,5 +35,27 @@
         text-align: center;
         box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
     }
+    &-team {
+        position: absolute;
+        transform: translateX(50%);
+        right: 50%;
+        bottom: -15px;
+        width: 260px;
+        height: 95px;
+        background: #fff;
+        border: none;
+        box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
+        color: rgba(0, 0, 0, 0.705);
+        text-align: center;
+        &_name {
+            font-size: 30px;
+            font-weight: 600;
+        }
+        &_info {
+            font-size: 15px;
+            font-weight: 500;
+        }
+              
+    }
 
 }
