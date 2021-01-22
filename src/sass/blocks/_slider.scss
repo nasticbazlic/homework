@@ -1,0 +1,38 @@
+.slider {
+    min-height: 820px;
+    padding: 140px 0;
+    &__item {
+        margin-top: 135px;
+    }
+    &__reviews {
+        position: relative;
+        width: 540px;
+        height: 280px;
+        padding: 70px 55px 48px 40px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(61, 61, 61, 0.34);
+    }
+    &__circle {
+        position: absolute;
+        transform: translateX(50%);
+        right: 50%;
+        top: -55px;
+        width: 100px;
+        height: 100px;
+        background-color: #fff;
+        border: 1px solid rgba(61, 61, 61, 0.34);
+        border-radius: 50%;
+    }
+    &__text {
+        font-size: 15px;
+        font-weight: 600;
+    }
+    &__star {
+        margin-top: 20px;
+        color: yellow;
+    }
+    &__name {
+        margin-top: 20px;
+        font-size: 15px;
+    }
+}

@@ -81,6 +81,23 @@
             margin-top: 70px;
         }
     }
+    .team {
+        &__item {
+            margin: 0 10px;
+        }
+    }
+    .button {
+        &-team {
+            width: 190px;
+            height: 70px;
+            &_name {
+                font-size: 20px;
+            }
+            &_info {
+                font-size: 10px;
+            }
+        }
+    }
     
     
     
@@ -117,6 +134,16 @@
             text-align: center;
         }
         &__photo {
+            margin-top: 50px;
+        }
+    }
+    .team {
+        &__content {
+            margin-top: 70px;
+            flex-wrap: wrap;
+            padding: 0;
+        }
+        &__item {
             margin-top: 50px;
         }
     }
