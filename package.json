@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/nasticbazlic/homework#readme",
   "dependencies": {
-    "gulp-cli": "^2.3.0"
+    "gulp-cli": "^2.3.0",
+    "tiny-slider": "^2.9.3"
   },
   "devDependencies": {
     "browser-sync": "^2.26.13",

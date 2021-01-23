@@ -2,12 +2,17 @@
     min-height: 820px;
     padding: 140px 0;
     &__item {
-        margin-top: 135px;
+        // position: relative;
+        // margin-top: 100px;
+        height: 405px;
+    display: flex;
+    align-items: center;
+        
     }
     &__reviews {
         position: relative;
-        width: 540px;
-        height: 280px;
+        width: 100%;
+        // height: 280px;
         padding: 70px 55px 48px 40px;
         text-align: center;
         box-shadow: 0 0 20px rgba(61, 61, 61, 0.34);
@@ -35,4 +40,27 @@
         margin-top: 20px;
         font-size: 15px;
     }
+    .prev, .next {
+        position: absolute;
+        top: 65%;
+        left: -66px;
+        border: 1px solid red;
+        border-radius: 50%;
+        background-color: #fff;
+        &:focus {
+            outline: none;
+        }
+        img {
+            width: 32px;
+            height: 40px;
+        }
+    }
+    .next {
+        right: -66px;
+        left: auto;
+    }
+    .tns-item  {
+        margin: 0 17px;
+    }
+
 }
