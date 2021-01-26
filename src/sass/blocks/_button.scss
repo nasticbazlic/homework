@@ -57,5 +57,16 @@
         }
                
     }
+    
+    &_footer {
+        background-color: #fff;
+        border: none;
+        color: #000;
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: capitalize;
+        box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    
+    }
 
 }

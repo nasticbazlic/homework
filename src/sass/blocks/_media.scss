@@ -34,6 +34,23 @@
             line-height: 24px;
         }
     }
+    .slider {
+        .prev {
+            left: -37px;
+        }
+        .next {
+            right: -37px;
+        }
+        &__star {
+            margin-top: 17px;
+        }
+        &__name {
+            margin-top: 10px;
+        }
+        &__text {
+            font-size: 13px;
+        }
+    } 
 
 }
 @media ( max-width: 991px) {
@@ -98,10 +115,32 @@
             }
         }
     }
-    
-    
+    .slider {
+        padding-bottom: 0px;
+        .prev {
+            left: -32px;
+        }
+        .next {
+            right: -32px;
+        }
+        .heading_slider {
+            margin-bottom: 90px;
+        }
+        &__text {
+            font-size: 12px;
+        }
+        &__reviews {
+            padding: 59px 55px 30px 40px;
+        }
+    }
+    .logo {
+        &__none {
+            display: none;
+        }
+    }  
     
 }
+
 @media ( max-width: 767px) {
     .heading {
         &__title {
@@ -147,7 +186,19 @@
             margin-top: 50px;
         }
     }
-    
+    .slider {
+        .prev {
+            left: -22px;
+        }
+        .next {
+            right: -22px;
+        }
+        .heading_slider {
+            margin-bottom: 70px;
+        }
+    }
+     
+       
     
 }
 @media ( max-width: 575px) {
@@ -175,8 +226,20 @@
             }
         }
     }
+    .slider {
+        &__circle {
+            display: none;
+        }
+    } 
+    .slider {
+        .prev, .next {
+            display: none;
+        }
+        .heading_slider {
+            margin-bottom: 50px;
+        } 
+    }
 }
-
 
 @media ( max-width: 475px) {
     .header {
@@ -259,6 +322,27 @@
             img {
                  width: 100%;
             }           
+        }
+    }
+    .slider {
+        .heading_slider {
+            margin-bottom: 40px;
+        }
+        &__text {
+            font-size: 10px;
+        }
+    }
+    .logo{
+        &__img {
+            flex-direction: column;
+            align-items: center;
+            img {
+                margin-top: 30px;
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+            
         }
     }
 }
