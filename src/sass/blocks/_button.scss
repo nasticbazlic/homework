@@ -13,6 +13,11 @@
     &:focus {
         outline: none;
     }
+    &:hover{
+        background: #fff;
+        color: #fa6b0bd3;
+        border: 1px solid  #fa6b0bd3 ;
+    }
     &_marvel {
         width: 220px;
         position: absolute;
@@ -23,6 +28,10 @@
         font-size: 17px;
         font-weight: 600;
         box-shadow: 0 4px 15px -5px rgba(0,0,0,0.5);
+        &:hover {
+            background: #fa6b0bfd;
+            color:#fff
+        }
         
     }
     &_services {
@@ -66,6 +75,11 @@
         font-weight: 600;
         text-transform: capitalize;
         box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        &:hover {
+            background: #fa6b0bd3;
+            color: #fff;
+            border: none;
+        }
     
     }
 

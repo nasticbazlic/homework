@@ -9,14 +9,17 @@ const slider = tns({
      responsive: {
       320: {
         gutter: 20,
-        items: 1
+        items: 1,
+        nav: true
       },
       700: {
         gutter: 30,
-        items: 1
+        items: 1,
+        nav: false
       },
       900: {
-        items: 2
+        items: 2,
+        nav: false
       }
     }
   });

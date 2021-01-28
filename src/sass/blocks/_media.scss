@@ -14,9 +14,14 @@
             margin-left: 25px;
         }
     }
+    .feature {
+        &__content {
+            justify-content: space-evenly;
+        }
+    }
     .marvel {
         &__group {
-            margin-top: 50px;
+            margin-top: 40px;
             justify-content: space-around;
         }
         &-item {
@@ -158,13 +163,18 @@
         }
     }
     .feature  {
+        padding: 70px 0 100px 0;
         &__content {
             flex-direction: column;
             align-self: center;
         }
 
     }
+    .marvel {
+        padding: 90px 0;
+    }
     .services {
+        padding: 65px 25px 40px 20px;
         &__content {
             justify-content: space-evenly;
         }
@@ -177,6 +187,7 @@
         }
     }
     .team {
+        padding: 90px 0;
         &__content {
             margin-top: 70px;
             flex-wrap: wrap;
@@ -187,6 +198,7 @@
         }
     }
     .slider {
+        padding: 55px 0 0 0;
         .prev {
             left: -22px;
         }
@@ -195,6 +207,9 @@
         }
         .heading_slider {
             margin-bottom: 70px;
+        }
+        .tns-nav {
+            right: 42%;
         }
     }
      
@@ -216,7 +231,11 @@
             }
         }    
     }
-    .services {
+    
+    .services {        
+        &__content {
+            margin-top: 80px;
+        }
         &__icn {
             width: 70px;
             height: 70px;
@@ -226,7 +245,15 @@
             }
         }
     }
-    .slider {
+    .team {        
+        &__content {
+            margin-top: 35px;
+        }
+        &__item {
+            height: 390px;
+        }
+    }
+    .slider {        
         &__circle {
             display: none;
         }
@@ -238,6 +265,15 @@
         .heading_slider {
             margin-bottom: 50px;
         } 
+    }
+    .footer {
+        &__info {
+            flex-wrap: wrap;
+        }
+        &__text {
+            margin-top: 20px;
+            font-size: 15px;
+        }
     }
 }
 
@@ -333,6 +369,7 @@
         }
     }
     .logo{
+        padding-top: 25px;
         &__img {
             flex-direction: column;
             align-items: center;

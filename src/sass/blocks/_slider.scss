@@ -62,5 +62,21 @@
     .tns-item  {
         margin: 0 17px;
     }
+    .tns-nav {
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        button {
+            width: 20px;
+            height: 10px;
+            background: #fa6b0bd3;
+            margin-right: 8px;
+            border-radius: 4px 4px;
+            border: none;
+            &:last-child {
+                margin-right: none;
+            }
+        }
+    }
 
 }
